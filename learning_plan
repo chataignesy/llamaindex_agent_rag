@@ -1,0 +1,101 @@
+Week 1: Introduction to LlamaIndex and Basic Concepts
+Goal: Familiarize yourself with the core concepts and architecture of LlamaIndex.
+Day 1: Overview of LlamaIndex
+
+Read the official documentation or introduction blog posts.
+Understand the motivation behind using LlamaIndex (data retrieval, RAG, indexing).
+Key concepts: indexing, retrieval, connectors, large language models (LLMs).
+Day 2: Understanding Retrieval-Augmented Generation (RAG)
+
+Study RAG and why it’s important for enhancing LLM capabilities.
+Watch a few videos or read tutorials explaining RAG and how LlamaIndex fits in.
+Explore the difference between RAG and standard language model inference.
+Day 3: Setting Up Your Environment
+
+Install LlamaIndex and any dependencies (Python, OpenAI API keys, etc.).
+Set up a simple Python project that uses LlamaIndex and OpenAI’s GPT models.
+Run a basic example from the documentation to ensure your setup is correct.
+Day 4-5: Creating Basic Indexes
+
+Learn how to create a basic document index.
+Key topics: chunking data, document parsing, embedding-based retrieval.
+Explore different index types: list index, tree index, and keyword index.
+Write Python code to index a few documents and retrieve them with queries.
+Day 6-7: Hands-on Exercises
+
+Index a dataset of your choice (e.g., articles, books, PDFs).
+Run queries against your dataset to retrieve relevant information.
+Experiment with retrieval quality and index performance.
+Week 2: Advanced Indexing & Data Integration
+Goal: Learn how to integrate and index complex or structured data using connectors and custom pipelines.
+Day 1: Exploring Data Connectors
+
+Learn about data connectors (e.g., Google Drive, Notion, SQL, APIs).
+Study how to use connectors to pull data from different sources.
+Implement a connector-based example (e.g., pull data from Google Drive or a CSV file).
+Day 2: Structured Data Integration
+
+Learn how to integrate structured data like databases or spreadsheets.
+Build an index from a SQL database or a CSV with structured data.
+Practice querying structured data and retrieving insights using LlamaIndex.
+Day 3-4: Customizing Indexing
+
+Learn to customize how data is indexed (e.g., chunk size, embedding model).
+Experiment with different chunking strategies for large documents.
+Try using alternative models (e.g., LLaMA, Anthropic’s Claude) for indexing and retrieval.
+Day 5-6: Memory and Persistent Knowledge Bases
+
+Learn how to maintain persistent memory with LlamaIndex (e.g., session-based knowledge augmentation).
+Build an application that remembers user interactions across sessions by storing conversations or retrieved data in an index.
+Day 7: Hands-on Project: Building a Search Engine
+
+Build a basic search engine using LlamaIndex and an open-source dataset (e.g., Wikipedia articles, blog posts).
+Incorporate both unstructured (text) and structured (tables) data.
+Focus on fine-tuning retrieval and improving search performance.
+Week 3: Query Processing and Custom Pipelines
+Goal: Understand how to customize query workflows, synthesize complex queries, and use LlamaIndex for specific tasks like summarization.
+Day 1: Query Processing and Filtering
+
+Learn about query synthesis, customization, and filtering.
+Study how queries are transformed and matched with relevant indexed data.
+Write a custom query handler that modifies how queries are interpreted or matched.
+Day 2-3: Multi-Document and Complex Query Handling
+
+Learn how to handle multi-document queries and aggregations.
+Build a pipeline that retrieves information from multiple documents and synthesizes a coherent answer.
+Day 4-5: Summarization
+
+Implement document summarization using LlamaIndex.
+Learn about hierarchical summarization (chunk-based) and how it works in LlamaIndex.
+Apply summarization to a dataset of long documents and evaluate the output.
+Day 6: Entity and Data Extraction
+
+Implement a pipeline to extract specific entities or data from documents.
+Explore how to configure LlamaIndex to retrieve very specific pieces of information, such as names, dates, or keywords.
+Day 7: Hands-on Project: Knowledge Base System
+
+Build a dynamic knowledge base system using LlamaIndex.
+Allow the system to ingest and summarize documents, extract entities, and handle user queries in real time.
+Week 4: Scaling, Optimization, and Real-World Applications
+Goal: Explore advanced techniques for scaling LlamaIndex, optimizing performance, and building real-world applications.
+Day 1: Scaling LlamaIndex
+
+Learn how to scale indexing and retrieval for large datasets.
+Study memory optimization, parallelization, and distributed indexing.
+Implement indexing for a large dataset (e.g., thousands of documents).
+Day 2: Performance Tuning
+
+Learn how to tune the performance of your index (e.g., retrieval speed, memory usage).
+Experiment with different models, embedding sizes, and indexing strategies to optimize for your use case.
+Day 3-4: Tool and API Integration
+
+Learn how to integrate LlamaIndex with APIs and external tools.
+Build an application that integrates LlamaIndex with a specific API (e.g., weather API, financial API) to augment LLM answers with real-time data.
+Day 5-6: Real-World Use Cases
+
+Explore real-world use cases for LlamaIndex (e.g., chatbots, document search engines, intelligent assistants).
+Work on a specific use case relevant to your interests (e.g., customer support, legal document analysis, medical information retrieval).
+Day 7: Final Capstone Project
+
+Build a full-fledged application using LlamaIndex, integrating everything you’ve learned.
+Example project: A legal document analysis tool, a personalized search engine, or a chatbot that retrieves and summarizes domain-specific information.
